@@ -44,8 +44,10 @@ def mergeSort(list):
     
 def main():
     unsortedList  = [6, 20, 8, 19, 56, 23, 87, 49, 41, 54]
+    
+    print("Unsorted List: ", unsortedList)
     mergeSort(unsortedList)
-    print(unsortedList)
+    print("Sorted List: ", unsortedList)
     
 if __name__ == "__main__":
     main()
